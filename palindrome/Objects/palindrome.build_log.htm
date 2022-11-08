@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Vishal Kompalli, Manipal Academy of Higher Education, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARM.DLL V5.29.0.0
+Dialog DLL:      DARMP.DLL V1.53.0.0
+Target DLL:      UL2ARM.DLL V1.74.10.0
+Dialog DLL:      TARMP.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\ProteusExample\palindrome\palindrome.uvproj
+Project File Date:  10/17/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling palindrome.c...
+CODE\palindrome.h(5): warning:  #1-D: last line of file ends without a newline
+  #define delay for(i=0;i<1000;i++);
+CODE\palindrome.c(14): warning:  #1295-D: Deprecated declaration lcd_int - give arg types
+  void lcd_int();
+CODE\palindrome.c(21): warning:  #951-D: return type of function "main" must be "int"
+  void main()
+CODE\palindrome.c(26): warning:  #223-D: function "isPalindrome" declared implicitly
+      isPalindrome("ono");
+CODE\palindrome.c(78): warning:  #159-D: declaration is incompatible with previous "isPalindrome"  (declared at line 26)
+          void isPalindrome(unsigned char* word)
+CODE\palindrome.c(111): warning:  #1-D: last line of file ends without a newline
+  }
+CODE\palindrome.c: 6 warnings, 0 errors
+linking...
+Program Size: Code=1168 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+".\Objects\palindrome.axf" - 0 Error(s), 6 Warning(s).
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

@@ -50,6 +50,6 @@ void delay(int k)              //Function for making delay
 
     for(i=0;i<k;i++)
 
-    for(j=0;j<=1000;j++);
+   for(j=0;j<=1000;j++);
 
 }

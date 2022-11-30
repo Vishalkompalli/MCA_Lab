@@ -10,7 +10,7 @@ void dat(unsigned char);
 void cmd(unsigned char);
 void string(unsigned char *);
 
-void main()
+int main()
 {
     IO0DIR|=0XFFF;
     lcd_int();

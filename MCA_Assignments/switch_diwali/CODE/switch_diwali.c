@@ -32,10 +32,7 @@ void main()
         delay(1000);
 }
                         }
-                        
-
-
-
+                       
 void lcd_int()
 {
     cmd(0x30);
@@ -44,8 +41,6 @@ void lcd_int()
     cmd(0x01);
     cmd(0x80);
 }
-
-
 
 void cmd(unsigned char a)
 {
@@ -57,8 +52,6 @@ void cmd(unsigned char a)
     delay;
     IO0CLR|=bit(10);               //en=0
 }
-
-
 
 void dat(unsigned char b)
 {
